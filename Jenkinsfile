@@ -9,7 +9,7 @@ pipeline{
         
         stage('maven build'){
             steps{
-                 mvn package
+                echo "mvn package"
             }
         }
         
